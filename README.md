@@ -1,4 +1,4 @@
-emacs configuration
+#emacs configuration
 
 Modify for findk and grepk and M-x byte-compile-file later on
 find:
