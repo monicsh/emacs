@@ -1,0 +1,14 @@
+# emacs temp files
+auto-save-list
+recentf
+server
+tramp
+session.*
+lisp/abbrev_defs
+lisp/bookmarks
+lisp/elpa
+lisp/newsticker
+lisp/ac-comphist.dat
+lisp/spu_log/*
+lisp/url
+lisp/transient
