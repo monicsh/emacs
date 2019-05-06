@@ -170,6 +170,7 @@
 ;; realgud
 ;; rg
 ;; unbound
+;; spu
 ;;
 ;; [TRYING]:
 ;; auctex
@@ -205,7 +206,6 @@
     powershell
     restart-emacs
     ripgrep
-    spu
     web-mode
     ws-butler
     xah-find

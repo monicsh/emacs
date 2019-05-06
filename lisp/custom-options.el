@@ -8,7 +8,7 @@
  '(custom-enabled-themes (quote (yet-another-dark)))
  '(custom-safe-themes
    (quote
-    ("15290cc4f813a717dfe953657368d6ba55226e9b98f10cee06b5fcd582b8340e" default)))
+    ("d97eac2de6a097b112c277575917169bf93e428dcf25846621512d7bffd059f8" "15290cc4f813a717dfe953657368d6ba55226e9b98f10cee06b5fcd582b8340e" default)))
  '(dired-listing-switches "-pgGhB")
  '(fill-column 90)
  '(fringe-mode (quote (1 . 1)) nil (fringe))
@@ -24,7 +24,7 @@
  '(mode-line-in-non-selected-windows t)
  '(package-selected-packages
    (quote
-    (omnisharp auctex annotate-depth anzu auto-complete buffer-move counsel csharp-mode dynamic-ruler easy-kill-extras edit-at-point fic-mode fold-this highlight-escape-sequences highlight-symbol indent-guide loccur magit magit-gitflow msvc noccur occur-x powershell restart-emacs ripgrep spu tfs use-package web-mode ws-butler xah-find)))
+    (annotate-depth anzu auctex auto-complete buffer-move counsel csharp-mode dynamic-ruler easy-kill-extras edit-at-point fic-mode fold-this highlight-escape-sequences highlight-symbol indent-guide loccur magit magit-gitflow msvc noccur occur-x omnisharp powershell restart-emacs ripgrep tfs use-package web-mode ws-butler xah-find)))
  '(read-file-name-completion-ignore-case t)
  '(recentf-mode 1)
  '(scroll-bar-mode nil)
