@@ -322,6 +322,7 @@ of the frame only if it is split into exactly 2 windows."
       (append '(("\\.psql$" . sql-mode)
                 ("\\.h$" . c++-mode)
                 ("\\.ini$" . windows-conf-mode)
+                ("\\.csl$" . conf-mode)
                 ("\\.config$" . nxml-mode)
                 ("\\.csproj$" . nxml-mode)
                 ("\\.scons$" . python-mode)
