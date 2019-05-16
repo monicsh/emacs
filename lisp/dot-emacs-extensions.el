@@ -110,6 +110,14 @@ If the region is not active, activate the current line."
   (message "'%s' copied!" (buffer-file-name))
   (kill-new (file-truename buffer-file-name)))
 
+;; Copies the buffer name we are working-on into the minibuffer,
+;; and also in the yank (paste) buffers of the emacs application
+(defun copy-buffer-name ()
+  "Copies current buffer name in kill ring."
+  (interactive)
+  (message "'%s' copied!" (buffer-name))
+  (kill-new (buffer-name)))
+
 ;; Custom column for showing file or process directory in ibuffer
 (define-ibuffer-column file-or-process-directory
   (:name "Directory")
