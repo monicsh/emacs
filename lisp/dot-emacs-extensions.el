@@ -409,6 +409,12 @@ of the frame only if it is split into exactly 2 windows."
             (setq require-final-newline nil
                   truncate-lines t)))
 
+;; dont add final newline in json files automatically
+(add-hook 'js-mode-hook
+          (lambda ()
+            (setq require-final-newline nil
+                  truncate-lines t)))
+
 ;; displays current buffer encoding system
 (defun display-buffer-encoding ()
   "displays current buffer encoding system"
