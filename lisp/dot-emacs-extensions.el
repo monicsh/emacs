@@ -332,6 +332,7 @@ of the frame only if it is split into exactly 2 windows."
                 ("\\.ini$" . windows-conf-mode)
                 ("\\.csl$" . conf-mode)
                 ("\\.config$" . nxml-mode)
+                ("\\.sfproj$" . nxml-mode)
                 ("\\.csproj$" . nxml-mode)
                 ("\\.scons$" . python-mode)
                 ("\\.cshtml$" . html-mode)
