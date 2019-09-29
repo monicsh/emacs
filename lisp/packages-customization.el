@@ -114,6 +114,7 @@
       (setq magit-refresh-verbose t)
 
       ;; turning off diff options for speed
+      (setq magit-commit-show-diff nil)
       (setq magit-diff-highlight-indentation nil)
       (setq magit-diff-highlight-trailing nil)
       (setq magit-diff-paint-whitespace nil)
