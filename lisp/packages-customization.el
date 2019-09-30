@@ -201,6 +201,7 @@
     fold-this
     highlight-symbol
     indent-guide
+    json-mode
     magit
     occur-x
     omnisharp
