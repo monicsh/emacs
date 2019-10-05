@@ -103,6 +103,12 @@
       (setq ws-butler-convert-leading-tabs-or-spaces nil)
       (ws-butler-global-mode t)))
 
+;; json-mode
+(if (package-installed-p 'json-mode)
+    (progn
+      (setq json-reformat:indent-width 2)
+      (add-hook 'json-mode-hook #'flycheck-mode)))
+
 ;; Turn off global magit-auto-revert-mode since this slows down when too many buffers are
 ;; open and git commands (like git checkout -- ) are issued outside of magit emacs/magit
 ;; environment. Some improvements based on https://magit.vc/manual/magit/Performance.html
