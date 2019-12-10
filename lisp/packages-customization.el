@@ -202,6 +202,7 @@
     buffer-move
     counsel
     csharp-mode
+    deadgrep
     edit-at-point
     fic-mode
     fold-this
