@@ -292,8 +292,9 @@ of the frame only if it is split into exactly 2 windows."
   (if (< (length wildcard) 3)
       (message "enter atleast 3 chars")
     (if (boundp 'desktop-dirname)
-        (ripgrep-regexp wildcard desktop-dirname)
-      (ripgrep-regexp wildcard "~/code/"))))
+        (deadgrep wildcard)
+        ;; (ripgrep-regexp wildcard desktop-dirname)
+      (message "set the project root dir for search"))))
 
 (defun find-files-in-project-root-using-counsel ()
   "Find files interactively using 'counsel' package from the project ROOT."
