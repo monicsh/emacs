@@ -151,6 +151,7 @@
       (setq magit-status-sections-hook
             (quote
              (
+              magit-insert-status-headers
               magit-insert-untracked-files
               magit-insert-unstaged-changes
               magit-insert-staged-changes
