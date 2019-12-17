@@ -329,15 +329,16 @@ of the frame only if it is split into exactly 2 windows."
 ;; setup for various files [extensions] and their editing modes
 (setq auto-mode-alist
       (append '(("\\.psql$" . sql-mode)
+                ("SConstruct$" . python-mode)
+                ("\\.config$" . nxml-mode)
+                ("\\.cshtml$" . html-mode)
+                ("\\.csl$" . conf-mode)
+                ("\\.csproj$" . nxml-mode)
+                ("\\.gitignore*" . conf-mode)
                 ("\\.h$" . c++-mode)
                 ("\\.ini$" . windows-conf-mode)
-                ("\\.csl$" . conf-mode)
-                ("\\.config$" . nxml-mode)
-                ("\\.sfproj$" . nxml-mode)
-                ("\\.csproj$" . nxml-mode)
                 ("\\.scons$" . python-mode)
-                ("\\.cshtml$" . html-mode)
-                ("SConstruct$" . python-mode)
+                ("\\.sfproj$" . nxml-mode)
                 ("CMakeLists.txt$" . makefile-mode)) auto-mode-alist))
 
 ;; ~/.local/bin PATH
